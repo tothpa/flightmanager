@@ -1,0 +1,16 @@
+db.flights.insert({
+    airplane: ref,
+    pilot: ref,
+    coPilot: ref,
+    takeoffTime: '2017-02-26 12:34',
+    takeoffAirfield: ref,
+    
+    landingTime: '2017-02-26 12:55',
+    landingAirfield: ref,
+    flightTask: ref,
+    notes: 'nothing',
+    sharedPayment: false,
+    shareRatio: 100,
+    
+    
+});
